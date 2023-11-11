@@ -1,0 +1,86 @@
+body{
+    background-color: #FFE3BB;
+    margin: 0px;
+    font-family: 'Comfortaa', sans-serif;
+}
+hr{
+    border-color: #0A6EBD;
+    border-style: none none dotted;
+    border-width:8px;
+    height: 0px;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 55px;
+    color: #A7D397;
+}
+h2{
+    font-family: 'VT323', monospace;
+    color: #B4BDFF;
+}
+.container{
+    padding-top: 100px;
+    background-image: url("/css/img/download.jpg");
+    background-blend-mode:darken;
+    background-size: 100% 100%;
+    text-align: center;
+    align-items: center;
+}
+.cloud1{
+    margin: 0px;
+    height:10em;
+    width:10em;
+    position: absolute;
+    left: 56%;
+    z-index: 1;
+}
+.cloud2{
+    margin: 0px;
+    height: 30%;
+    width:30%;
+    position: relative;
+    right:100px;
+}
+.mid-container{    
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    color: #FF8080;
+}
+.sideimg1{
+    padding-right:30px ;
+    height:150px;
+    width:150px;
+    float:left;
+}
+.sideimg2{
+    padding-left:30px ;
+    height:150px;
+    width:150px;
+    float:right;
+}
+.sdtxt{
+    text-align:right;
+}
+.footer{
+    width:100%;
+    padding-top:10px ;
+    text-align: center;
+    height:120px;
+    background-color: #0A6EBD;
+    padding-bottom:100px;
+}
+td{
+    width:20%;
+}
+.social{
+    text-align: center;
+}
+
+/* Using Clear Tag To Remove Float For Particular Paragraph; */
+/* .description{
+    clear:left;
+}
+.description1{
+    clear:right;
+} */
